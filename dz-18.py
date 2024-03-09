@@ -5,3 +5,6 @@ def common_elements():
 
 
 common_elements()
+
+assert isinstance(common_elements(), set) == True, "Test 1"
+print("OK")
